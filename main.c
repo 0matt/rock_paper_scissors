@@ -68,12 +68,16 @@ void checkResult() {
         
         computerResult++;
 
+        printf("Your Result: %d / Computer Result: %d\n", playerResult, computerResult);
+
         playAgain();
     } else if(_playerChoice == 1 && _computerChoice == 0) {
         printf("Your move: Paper / Computer move: Rock \n");
         printf("You Win!\n");
 
         playerResult++;
+
+        printf("Your Result: %d / Computer Result: %d\n", playerResult, computerResult);
 
         playAgain();
     }
@@ -84,12 +88,16 @@ void checkResult() {
 
         playerResult++;
 
+        printf("Your Result: %d / Computer Result: %d\n", playerResult, computerResult);
+
         playAgain();
     } else if(_playerChoice == 2 && _computerChoice == 0) {
         printf("Your move: Scissors / Computer move: Rock \n");
         printf("Computer Win!\n");
 
         computerResult++;
+
+        printf("Your Result: %d / Computer Result: %d\n", playerResult, computerResult);
 
         playAgain();
     }
@@ -100,12 +108,16 @@ void checkResult() {
 
         playerResult++;
 
+        printf("Your Result: %d / Computer Result: %d\n", playerResult, computerResult);
+
         playAgain();
     } else if(_playerChoice == 1 && _computerChoice == 2) {
         printf("Your move: Paper / Computer move: Scissors \n");
         printf("Computer Win!\n");
 
         computerResult++;
+
+        printf("Your Result: %d / Computer Result: %d\n", playerResult, computerResult);
 
         playAgain();
     }
@@ -114,15 +126,21 @@ void checkResult() {
         printf("Your move: Rock / Computer move: Rock \n");
         printf("Draw!\n");
 
+        printf("Your Result: %d / Computer Result: %d\n", playerResult, computerResult);
+
         playAgain();
     } else if(_playerChoice == 1 && _computerChoice == 1) {
         printf("Your move: Paper / Computer move: Paper \n");
         printf("Draw!\n");
 
+        printf("Your Result: %d / Computer Result: %d\n", playerResult, computerResult);
+
         playAgain();
     } else if(_playerChoice == 2 && _computerChoice == 2) {
         printf("Your move: Scissors / Computer move: Scissors \n");
         printf("Draw!\n");
+
+        printf("Your Result: %d / Computer Result: %d\n", playerResult, computerResult);
 
         playAgain();
     }
